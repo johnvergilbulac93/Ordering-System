@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tbody {
+     @apply divide-y divide-gray-300 tracking-wide;
+ }
+ .td {
+     @apply p-2 whitespace-nowrap text-sm text-gray-700  ;
+ }
+ .tr {
+     @apply hover:bg-gray-100 ;
+ }
+ .th {
+     @apply p-2;
+ }
